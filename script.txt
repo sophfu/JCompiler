@@ -1,0 +1,4 @@
+set pc __PROG_START
+break __PROG_HALT
+run
+exit
