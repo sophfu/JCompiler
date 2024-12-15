@@ -30,5 +30,6 @@ Key functions:
 To compile a J program, run the `jc` compiler with the following syntax:
 
 ```bash
-$ gcc jc.c token.c compiler.c -o jc
-$ ./jc <source.j> [output.s]
+$ ./jc source.j
+```
+This will generate the assembly code in `source.s`.
